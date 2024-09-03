@@ -23,7 +23,7 @@ resource "aws_instance" "santet" {
 }
 
 
-resource "aws_instanc" "sanket_ins" {
+resource "aws_instancee" "sanket_ins" {
   instance_type = "t2.micro"
   ami           = "ami-053b0d53c279acc90"
 
