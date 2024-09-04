@@ -41,7 +41,7 @@ resource "aws_instance" "santettesters" {
 }
 
 
-resource "aws_instan" "santettesters" {
+resource "aws_instance" "santettesters" {
   instance_type = "t2.micro"
   ami           = "ami-053b0d53c279acc90"
 }
